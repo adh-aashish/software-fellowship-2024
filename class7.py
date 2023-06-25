@@ -14,7 +14,7 @@ class Dog(Animal):
         super().__init__(name, colour)
         self.owner = owner
 
-    def bark():
+    def bark(self):
         print("Woaf! Woaf!")
 
 # initialization
